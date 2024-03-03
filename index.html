@@ -1,0 +1,78 @@
+<!-- Practica 3 -->
+
+<!DOCTYPE html>
+<!-- Esta línea declara el tipo de documento y la versión de HTML, en este caso HTML5. Es importante porque le dice al navegador cómo interpretar el documento. -->
+
+<html lang="es">
+<!-- La etiqueta <html> abre el documento HTML y el atributo 'lang' especifica que el idioma del documento es español. -->
+
+<head>
+    <meta charset="UTF-8">
+    <!-- La etiqueta <meta> con el atributo 'charset' establece la codificación de caracteres para el documento, aquí UTF-8, que soporta la mayoría de los caracteres de idiomas. -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Esta etiqueta <meta> es importante para la responsividad. Ajusta la visualización del sitio web a la anchura del dispositivo y establece la escala inicial. -->
+
+    <title>Práctica 3</title>
+    <!-- La etiqueta <title> define el título del documento, que se muestra en la pestaña del navegador. -->
+
+    <style> /* Bueno, esto claramente no debería estar acá, en fin... */
+        /* Los estilos CSS internos comienzan aquí */
+        body {
+            text-align: center;
+        }
+        /* Estilo para el cuerpo del documento. Alinea el texto al centro. */
+
+        h1 {
+            background-color: #000; /* Fondo negro */
+            color: #fff; /* Texto blanco */
+            padding: 10px; /* Espaciado interno */
+            text-align: center; /* Alineación de texto al centro */
+            margin: 0; /* Sin margen exterior */
+        }
+        /* Estilos para los encabezados h1. */
+
+        h2 {
+            background-color: #ffc0cb; /* Fondo color rosa */
+            color: #000; /* Texto negro */
+            padding: 5px; /* Espaciado interno */
+            text-align: left; /* Alineación de texto a la izquierda */
+            margin: 0; /* Sin margen exterior */
+        }
+        /* Estilos para los encabezados h2. */
+
+        p {
+            margin: 20px; /* Margen exterior */
+            font-size: 1.2em; /* Tamaño de fuente */
+        }
+        /* Estilos para los párrafos. */
+
+        /* Estilo para la imagen */
+        #image {
+            width: 100%; /* Ancho completo */
+            height: 50%; /* Altura al 50% */
+        }
+        /* Estilo para la imagen con id 'image'. Ajusta su tamaño. */
+    </style>
+</head>
+
+<body>
+    <h1 title="Titulo_1">Práctica 3</h1>
+    <!-- Encabezado h1 con un título (tooltip) 'Titulo_1'. -->
+
+    <h2 title="Titulo_2">Versos</h2>
+    <!-- Encabezado h2 con un título (tooltip) 'Titulo_2'. -->
+
+    <!-- Imagen -->
+    <img id="image" src="img/sp.jpg" alt="No hay imagen unu" title="Imagen">
+    <!-- Imagen con id 'image', ruta especificada en 'src', texto alternativo en 'alt' y título 'Imagen'. -->
+
+    <p>Si alguien necesita ayuda y tú puedes brindarla.</p>
+    <p>tienes la obligación de hacerlo.</p>
+    <p>A veces la vida apesta</p>
+    <p>¡pero siempre vale la pena vivirla!</p>
+    <!-- Párrafos de texto en el cuerpo del documento. -->
+</body>
+<!-- Esta etiqueta cierra el <body>, que es donde termina el contenido visible de la página. -->
+</html>
+<!-- Esta etiqueta cierra el documento HTML. -->
